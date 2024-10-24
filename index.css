@@ -1,0 +1,47 @@
+.qorap{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: blue;
+    position: relative;
+    animation-name: batyr;
+    transition-duration: 1s;
+}
+.qorap:hover{
+        transform: rotate(180deg);
+        background-color: pink;
+        width: 200px;
+        height: 200px;
+ }
+/* @keyframes batyr{
+    /* 0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+        background-color: pink;
+    } */
+.qorap2{
+    width: 500px;
+    height: 100px;
+    border: 2px solid red;
+}
+.qorap3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: brown;
+    border-radius: 100%;
+    animation: yldosagaiqinali 4s infinite; 
+}
+@keyframes yldosagaiqinali{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 400px;
+    }
+    100%{
+        left: 0px;
+    }
+}
